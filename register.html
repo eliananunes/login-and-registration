@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container col-11 col-md-9" id="form-container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Faça seu cadastro</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input 
+                            type="text" 
+                            class="form-control"
+                            name="name" 
+                            id="name" 
+                            placeholder="Digite seu nome"
+                        >
+                        <label for="name" class="form-label">Digite seu nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input 
+                            type="text" 
+                            class="form-control"
+                            name="lastname" 
+                            id="lastname" 
+                            placeholder="Digite seu nome"
+                        >
+                        <label for="lastname" class="form-label">Digite seu sobrenome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input 
+                            type="email" 
+                            class="form-control"
+                            name="email" 
+                            id="email" 
+                            placeholder="Digite seu nome"
+                        >
+                        <label for="email" class="form-label">Digite seu email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input 
+                            type="password" 
+                            class="form-control"
+                            name="password" 
+                            id="password" 
+                            placeholder="Digite sua senha"
+                        >
+                        <label for="password" class="form-label">Digite sua senha</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input 
+                            type="confirmpassword" 
+                            class="form-control"
+                            name="confirm-password" 
+                            id="confirm-password" 
+                            placeholder="Confirme sua senha"
+                        >
+                        <label for="confirm-password" class="form-label">Confirme sua senha</label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="agree-form" name="agree-form">
+                            <label for="agree-form">Você aceita os <a href="#">termos de serviço?</a></label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter" checked>
+                            <label for="newsletter">Deseja receber a nossa Newsletter?</label>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Cadastrar">
+                </form>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="col-12">
+                    <img src="img/r.svg" alt="Cadastre-se" class="img-fluid">
+                </div>
+                <div class="col-12" id="link-container">
+                    <a href="login.html">Eu já tenho uma conta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
